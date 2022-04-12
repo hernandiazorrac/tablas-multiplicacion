@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    text-align: center;
     color: #EF6F6C;
     background-color: #465775;
     overflow: hidden;
@@ -17,4 +18,31 @@ body{
     padding: 100px;
     background-color: rgb(52, 63, 83, 0.3);
     border-radius: 5px;
+    font-weight: 400;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.button__item{
+    padding: 15px 40px;
+    border: 1px white solid;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(52, 63, 83, 0.3);
+}
+
+.button__item:hover{
+    cursor: pointer;
+    background-color: rgba(14, 17, 22, 0.3);
+}
+
+.name{
+    font-size: 15px;
+    margin-bottom: -100px;
+    color: white;
+    font-weight: 100;
 }
